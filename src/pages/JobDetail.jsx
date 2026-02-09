@@ -24,9 +24,9 @@ export default function JobDetail() {
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-4">Job Not Found</h1>
           <p className="text-gray-600 mb-6">The job you are looking for does not exist.</p>
-          <Link 
+            <Link
             to="/"
-            className="px-6 py-3 bg-blue-600 text-white rounded-lg"
+            className="px-6 py-3 bg-blue-600 text-white rounded-lg cursor-pointer"
           >
             Back to Jobs
           </Link>
@@ -95,7 +95,7 @@ export default function JobDetail() {
             <div className="pt-6 border-t border-gray-200">
               <button
                 onClick={handleApply}
-                className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg"
+                className="px-8 py-4 bg-blue-600 text-white font-semibold rounded-lg cursor-pointer"
               >
                 Apply Now
               </button>

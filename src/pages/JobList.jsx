@@ -84,7 +84,7 @@ export default function JobList() {
                 {/* View Details Button */}
                 <Link
                   to={`/${job.id}`}
-                  className="block w-full py-2 bg-blue-600 text-white text-center rounded-md font-medium"
+                  className="block w-full py-2 bg-blue-600 text-white text-center rounded-md font-medium cursor-pointer"
                 >
                   View Details
                 </Link>
