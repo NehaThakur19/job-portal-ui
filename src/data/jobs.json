@@ -1,0 +1,20 @@
+[
+  {
+    "id": "job-frontend-001",
+    "title": "Frontend Developer",
+    "company": "TechCorp",
+    "location": "Remote"
+  },
+  {
+    "id": "job-backend-002",
+    "title": "Backend Developer",
+    "company": "DataSystems",
+    "location": "New York"
+  },
+  {
+    "id": "job-fullstack-003",
+    "title": "Full Stack Developer",
+    "company": "StartupXYZ",
+    "location": "San Francisco"
+  }
+]

@@ -1,4 +1,20 @@
-export default function App() {
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import JobList from "./pages/JobList";
+import JobDetail from "./pages/JobDetail";
 
-  return <h1 className="text-3xl font-bold">Hello World</h1>
+export default function App() {
+  return (
+    <Router>
+      <div className="p-4">
+        <Routes>
+          <Route path="/" element={<JobList />} />
+          <Route path="/:id" element={<JobDetail />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
