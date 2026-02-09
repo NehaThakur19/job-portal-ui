@@ -3,18 +3,54 @@
     "id": "job-frontend-001",
     "title": "Frontend Developer",
     "company": "TechCorp",
-    "location": "Remote"
+    "location": "Remote",
+    "type": "Full-time",
+    "description": "We are looking for a skilled Frontend Developer to join our team. You will be responsible for building and maintaining user interfaces using modern JavaScript frameworks. The ideal candidate has a passion for creating intuitive and responsive web applications.",
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Git", "REST APIs"]
   },
   {
     "id": "job-backend-002",
     "title": "Backend Developer",
     "company": "DataSystems",
-    "location": "New York"
+    "location": "New York",
+    "type": "Full-time",
+    "description": "Join our backend team to build scalable APIs and services. You will work with databases, microservices, and cloud infrastructure to power our applications. Strong problem-solving skills and experience with server-side technologies are essential.",
+    "skills": ["Node.js", "Python", "PostgreSQL", "Docker", "AWS"]
   },
   {
     "id": "job-fullstack-003",
     "title": "Full Stack Developer",
     "company": "StartupXYZ",
-    "location": "San Francisco"
+    "location": "San Francisco",
+    "type": "Full-time",
+    "description": "As a Full Stack Developer, you will work on both frontend and backend components of our platform. This is an exciting opportunity to work in a fast-paced startup environment and contribute to all aspects of product development.",
+    "skills": ["React", "Node.js", "MongoDB", "Express", "GraphQL"]
+  },
+  {
+    "id": "job-ui-004",
+    "title": "UI/UX Designer",
+    "company": "CreativeStudio",
+    "location": "Remote",
+    "type": "Internship",
+    "description": "We are seeking a talented UI/UX Designer intern to help create beautiful and intuitive user experiences. You will work closely with our product team to design interfaces, conduct user research, and create design systems.",
+    "skills": ["Figma", "Adobe XD", "User Research", "Prototyping", "Design Systems"]
+  },
+  {
+    "id": "job-mobile-005",
+    "title": "Mobile Developer",
+    "company": "AppWorks",
+    "location": "Austin",
+    "type": "Remote",
+    "description": "Looking for a Mobile Developer to build cross-platform mobile applications. You will develop apps for iOS and Android using React Native, ensuring high performance and excellent user experience across all devices.",
+    "skills": ["React Native", "iOS", "Android", "Firebase", "Mobile UI"]
+  },
+  {
+    "id": "job-devops-006",
+    "title": "DevOps Engineer",
+    "company": "CloudTech",
+    "location": "Seattle",
+    "type": "Full-time",
+    "description": "Join our DevOps team to automate and optimize our infrastructure. You will work on CI/CD pipelines, cloud infrastructure, and monitoring systems to ensure our applications run smoothly and securely.",
+    "skills": ["Kubernetes", "Terraform", "Jenkins", "AWS", "Linux"]
   }
 ]
